@@ -1,3 +1,9 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .main-nav{
     border:1px solid black;
     width: 100%;
@@ -19,14 +25,14 @@
 }
 
 .icons {
+    border-style: none;
+    flex-wrap: nowrap;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border:1px solid brown;
-    width: fit-content;
-    height: 100%;
+    border:1px solid green;
 }
 
-.sec-nav {
-    border:1px solid pink;
+.icons button {
+    border-style: none;
+    background-color: transparent;
+    margin:0px 6px;
 }

@@ -1,0 +1,28 @@
+.options-div {
+    border:1px solid gold;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.options-div p {
+    border: 1px solid black;
+    margin:5px;
+    padding:5px;
+    
+}
+
+.navbar-toggler {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.HeaderSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
