@@ -8,9 +8,13 @@
 
 .options-div p {
     border: 1px solid black;
+    color:red;
     margin:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding:5px;
-    
+    min-height: 10vh;    
 }
 
 .navbar-toggler {
