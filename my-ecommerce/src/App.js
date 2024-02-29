@@ -5,6 +5,7 @@ import Header from "./Header.js"
 import HeaderSection from "./HeaderSection.js"
 import Body from "./Body.js"
 import Main from "./Main.js"
+import Assembly from "./Assembly.js"
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       <HeaderSection />
       <Body />
       <Main />
+      <Assembly />
     </div>
   );
 }
