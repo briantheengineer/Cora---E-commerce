@@ -2,7 +2,14 @@
  {
     "id": 1,
     "name": "White Dress",
-    "img": "./images/model-body.png",
-    "price": 150
+    "imgUrl": "/product-images/main-img-4.png",
+    "price": 150,
+    "category":"Dress"
+ },
+ {
+   "id":2,
+   "name":"Black Dress",
+   "imgUrl": "/product-images/main-img-4.png",
+   "price": 145
  }
 ]
