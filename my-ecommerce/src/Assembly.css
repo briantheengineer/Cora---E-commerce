@@ -22,6 +22,12 @@
 
 .assembly-cards {
     border:5px dotted violet;
+    height: 870px;
     padding: 5px;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    overflow:hidden;
 }
+

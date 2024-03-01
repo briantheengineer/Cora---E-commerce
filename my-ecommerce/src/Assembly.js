@@ -15,8 +15,9 @@ export default function Assembly() {
             <div className="assembly-cards">
                 {data.map(cardData => (
                     <Card key={cardData.id} {...cardData} />
-    ))}
-  </div>
+                    ))}
+            </div>
+                 
         </div>
     )
 }

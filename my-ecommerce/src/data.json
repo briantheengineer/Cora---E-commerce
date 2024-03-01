@@ -1,15 +1,90 @@
 [
  {
     "id": 1,
-    "name": "White Dress",
-    "imgUrl": "/product-images/main-img-4.png",
+    "name": "Yellow Hoodie",
+    "imgUrl": "/product-images/item1.png",
     "price": 150,
-    "category":"Dress"
+    "category":"Hoodie",
+    "link":"https://www.google.com/"
  },
  {
    "id":2,
-   "name":"Black Dress",
-   "imgUrl": "/product-images/main-img-4.png",
-   "price": 145
+   "name":"Dark Blue Jacket",
+   "imgUrl": "/product-images/item2.png",
+   "price": 145,
+   "link": "https://www.google.com/"
+ },
+ { 
+  "id": 3,
+  "name": "White Nike Shoes",
+  "imgUrl": "/product-images/item3.png",
+  "price": 100
+ },
+ { 
+  "id": 4,
+  "name": "Green Stamped Dress",
+  "imgUrl": "/product-images/item4.png",
+  "price": 50
+ },
+ { 
+  "id": 5,
+  "name": "Blue Sweater",
+  "imgUrl": "/product-images/item5.png",
+  "price":100
+ },
+ { 
+  "id": 6,
+  "name": "Sunglasses",
+  "imgUrl": "/product-images/item6.png",
+  "price": 70
+ },
+ { 
+  "id": 7,
+  "name": "Pink Backpack",
+  "imgUrl": "/product-images/item7.png",
+  "price": 90
+ },
+ { 
+  "id": 8,
+  "name": "Leather Jacket",
+  "imgUrl": "/product-images/item8.png",
+  "price": 150
+ },
+ { 
+  "id": 9,
+  "name": "Sunset Dress",
+  "imgUrl": "/product-images/item9.png",
+  "price": 90
+ },
+ { 
+  "id": 10,
+  "name": "Swaroski Watch",
+  "imgUrl": "/product-images/item10.png",
+  "price":500
+ },
+ { 
+  "id": 11,
+  "name": "Leather Purse",
+  "imgUrl": "/product-images/item11.png",
+  "price":500
+  
+ },
+ { 
+  "id": 12,
+  "name": "Striped Skirt",
+  "imgUrl": "/product-images/item12.png",
+  "price": 50
+ },
+ { 
+  "id": 13,
+  "name": "Watch",
+  "imgUrl": "/product-images/item13.png",
+  "price": 200
+ },
+ { 
+  "id": 14,
+  "name": "Pink Jeans",
+  "imgUrl": "/product-images/item14.png",
+  "price": 70
  }
 ]

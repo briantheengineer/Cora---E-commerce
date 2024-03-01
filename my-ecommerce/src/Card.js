@@ -1,7 +1,8 @@
 import "./Card.css"
 import "./data.json"
-export default function Card({id, name, price, imgUrl, title, category}) {
+export default function Card({id, name, price, imgUrl, title, category, link}) {
     return (
+        <a class="card-link" href={link}>
         <div className="card-div" key= {id}>
             <div className="card-img">
                 <img src={imgUrl} alt={title} />
@@ -10,9 +11,9 @@ export default function Card({id, name, price, imgUrl, title, category}) {
                 <p className="product-name">{name}</p>
                 <div className="product-info">
                     <p className="product-category">{category}</p>
-                    <p className="price">${price}</p>
+                    <p className="product-price">${price}</p>
                 </div>
             </div>
-        </div>
+        </div></a>
     )
 }
