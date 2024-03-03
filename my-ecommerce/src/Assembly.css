@@ -1,17 +1,13 @@
 .assembly-div {
     width: 100%;
     min-width: 150vh;
-    height: 100vh;
+    height: fit-content;
     padding: 5px 15vh;
 }
 
 .assembly-nav {
     border:1px solid red;
-    min-width: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 30%;
+    width: fit-content;
     height: fit-content;
     padding:2px
 }
@@ -22,7 +18,7 @@
 
 .assembly-cards {
     border:5px dotted violet;
-    height: 870px;
+    height:fit-content;
     padding: 5px;
     display: flex;
     flex-wrap: wrap;

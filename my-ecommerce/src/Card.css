@@ -2,7 +2,7 @@
     border:2px dotted black;
     width: 250px;
     height: 420px;
-    margin: 5px;
+    margin: 15px 0px;
 }
 
 .card-div:hover {
@@ -43,4 +43,3 @@
     text-decoration: none;
     color:black;
 }
-
