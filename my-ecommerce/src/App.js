@@ -1,19 +1,26 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap-icons/font/bootstrap-icons.css'
-import Header from "./Header.js"
-import HeaderSection from "./HeaderSection.js"
-import Body from "./Body.js"
-import Main from "./Main.js"
-import Assembly from "./Assembly.js"
+// App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './Header.js';
+import HeaderSection from './HeaderSection.js';
+import Home from './Home.js';
+import ProductsPage from './ProductsPage.js';
+import Product from './Product.js';
+
 function App() {
   return (
     <div className="App">
-      <Header />
-      <HeaderSection />
-      <Body />
-      <Main />
-      <Assembly />
+      <div>
+        <Header />
+        <HeaderSection />
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/products" element={<ProductsPage />} />
+            <Route path="/products/:id" element={<Product />} />
+          </Routes>
+        </Router>
+      </div>
     </div>
   );
 }
