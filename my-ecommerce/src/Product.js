@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import data from './data.json';
+import "./Product.css"
 
 export default function Product() {
   const { id } = useParams();
@@ -11,10 +12,19 @@ export default function Product() {
   }
 
   return (
-    <div>
-      <h2>{product.name}</h2>
-      <p>Category: {product.category}</p>
-      <p>Price: ${product.price}</p>
+    <div className="main-product-div">
+      <div className="product-div">
+        <figure className="product-img">
+          <img src={product.imgUrl} alt="product"/>
+        </figure>
+        <div className="product-text">
+          <
+          <h2>{product.name}</h2>
+          <p>{product.category}</p>
+          <p>Price: ${product.price}</p>
+          <button className='btn btn-primary' type='submit'>Add to Cart</button>
+        </div>
+      </div>
     </div>
   );
 }
