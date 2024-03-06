@@ -18,7 +18,6 @@ export default function Product() {
           <img src={product.imgUrl} alt="product"/>
         </figure>
         <div className="product-text">
-          <
           <h2>{product.name}</h2>
           <p>{product.category}</p>
           <p>Price: ${product.price}</p>
