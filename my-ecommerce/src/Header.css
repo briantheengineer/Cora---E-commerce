@@ -13,7 +13,7 @@
 
 .content {
     border:1px solid red;
-    height: fit-content;
+    min-height: 6vh;
     max-height: 10vh;
     width: 100%;
     display: flex;
