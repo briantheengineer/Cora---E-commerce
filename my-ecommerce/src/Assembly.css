@@ -6,7 +6,6 @@
 }
 
 .assembly-nav {
-    border:1px solid red;
     width: fit-content;
     height: fit-content;
     padding:2px
@@ -14,6 +13,11 @@
 
 .assembly-nav p {
     margin: 5px;
+    font-weight: 500;
+}
+
+.assembly-nav hr {
+    color: rgba(0, 0, 0, 0.85)
 }
 
 .assembly-cards {

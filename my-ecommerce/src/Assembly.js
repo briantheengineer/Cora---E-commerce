@@ -5,9 +5,11 @@ export default function Assembly() {
     const data = jsonData
     return (
         <div className="assembly-div">
+            
             <div className="assembly-nav">
-                <p>All Products</p>
+                <p>All Products</p>  
             </div>
+            <hr/>
             <div className="assembly-cards">
                 {data.map(cardData => (
                     <Card key={cardData.id} {...cardData} />

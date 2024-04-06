@@ -10,6 +10,7 @@ export default function Card({id, name, price, imgUrl, title, category}) {
             </div>
             <div className="product-content">
                 <p className="product-name">{name}</p>
+                <br/>
                 <div className="product-info">
                     <p className="product-category">{category}</p>
                     <p className="product-price">${price}</p>

@@ -6,8 +6,8 @@ export default function Header() {
         <div class="content content-fluid">
         <a class="navbar-brand"><img /></a>
             <div class="icons">
-                <button><i class="bi bi-person-circle"></i> Account </button>
-                <button><i class="bi bi-bag-fill"></i> Shopping </button>
+                <a><i class="bi bi-person-circle"></i> Account</a>
+                <a><i class="bi bi-bag-fill"></i> Shopping</a>
             </div>
         </div>
         <br></br>

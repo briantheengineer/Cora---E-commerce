@@ -3,11 +3,9 @@ export default function HeaderSection() {
     return (
         <div class="HeaderSection navbar navbar-expand-md">
         <div class="options-div">
-                <p>Jewelry & Accessories</p>
-                <p>Home & Living</p>
-                <p>Clothing & Shoes</p>
-                <p>Wedding & Party</p>
-                <p>Arts & Collectibles</p>
+                <a href="/"><p>Shoes & Accessories</p></a>
+                <a href="/"><p>Dresses & Skirts</p></a>
+                <a href="/"><p>Hoodies & Jackets</p></a>
         </div>
         </div>
     )
