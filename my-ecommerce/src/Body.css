@@ -17,7 +17,6 @@
 }
 
 .body-text {
-    border:1px solid red;
     padding: 5px;
     width: 100vh;
     height: 60vh;
@@ -28,15 +27,25 @@
 }
 
 .body-openning {
-    border:1px solid gold;
     width: 100%;
+    padding:5px;
 }
+
+.body-openning h1 {
+    font-size: 7vh;
+}
+
+.body-openning p {
+    font-weight: 500;
+}
+
 
 .body-openning button {
     background-color: #1E2832;
+    border:none;
     color:white;
     font-weight: 600;
-    padding:5px;
+    padding:8px;
     border-radius: 4px;
 }
 .bi-bag-fill{ 
@@ -50,7 +59,9 @@
     min-height: 300px;
     width: 50vh;
     height: 60vh;
-    border:1px solid gold;
+    border-bottom:1px solid rgba(0,0,0, 0.2);
+    border-right: 1px solid rgba(0,0,0, 0.2) ;
+    padding:0px 7px 7px 0px;
 }
 
 .body-img img {

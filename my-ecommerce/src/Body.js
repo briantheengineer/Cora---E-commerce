@@ -7,8 +7,10 @@ export default function Body() {
                 <div class="body-text">
                     <div class="body-openning">
                         <h1>Collections</h1>
+                        <br></br>
                         <p>You can explore and shop many different collections</p>
-                        <p>From varisous brands here</p> 
+                        <p>From various brands here!</p> 
+                        <br></br>
                         <button class="btn"><i class="bi bi-bag-fill"></i>  Shop Now</button>  
                     </div>
                     

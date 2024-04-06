@@ -9,7 +9,6 @@
 .product-div {
     margin:10px;
     padding:10px;
-    border:2px dotted blue;
     width: 50%;
     min-width: 600px;
     height: 80vh;
@@ -30,13 +29,11 @@
     object-fit: cover;
     width: 100%;
     height: 100%;
-    border:1px solid black;
     border-top-left-radius: 30%;
     border-bottom-right-radius: 30%;
 }
 
 .product-text {
-    border:1px solid red;
     height: 80%;
     padding: 10px 25px;
     max-width: 250px;

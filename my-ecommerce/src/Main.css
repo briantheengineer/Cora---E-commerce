@@ -12,7 +12,6 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: nowrap;
-    border:1px solid gold;
 }
 
 .main-brands img {
@@ -26,13 +25,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border:5px solid black;
     width: 100%;
     height: 95vh;
 }
 
 .main-text {
-    border:1px solid black;
     writing-mode: vertical-rl;
     text-orientation: sideways-left;  
     height: 80%;
@@ -40,8 +37,12 @@
     transform: rotate(-180deg);
 }
 
+.main-text h5 {
+    font-size: 3.5vh;
+    padding-right: 5px;
+}
+
 .grid-container {
-    border: 5px solid red;
     width:80%;
     min-width: 190vh;
     height: 80vh;
@@ -50,7 +51,6 @@
 }
 
 .item1 {
-    border:2px solid black;
     height: 100%;
     width: 40%;
     min-width: fit-content;
@@ -63,7 +63,6 @@
 }
 
 .small-img-div {
-    border:5px solid gold;
     height: 100%;
     min-width: 105vh;
     width: 60%;
@@ -75,7 +74,6 @@
 }
 
 .grid-item {
-    border:1px solid black;
     min-width: 50vh;
     width: 40%;
     height: 50%;

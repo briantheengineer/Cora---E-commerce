@@ -12,8 +12,7 @@
 }
 
 .content {
-    border:1px solid red;
-    min-height: 6vh;
+    min-height: fit-content;
     max-height: 10vh;
     width: 100%;
     display: flex;
@@ -22,7 +21,6 @@
 }
 
 .navbar-brand {
-    border:1px solid gold;
     width: 100px;
 }
 
@@ -30,7 +28,6 @@
     border-style: none;
     flex-wrap: nowrap;
     display: flex;
-    border:1px solid green;
 }
 
 .icons button {

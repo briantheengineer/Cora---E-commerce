@@ -17,7 +17,6 @@
 }
 
 .assembly-cards {
-    border:5px dotted violet;
     height:fit-content;
     padding: 5px;
     display: flex;
