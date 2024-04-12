@@ -20,6 +20,12 @@
     justify-content: space-around;
 }
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding:2px 0px;
+}
+
 .navbar-brand {
     width: 100px;
 }
@@ -28,10 +34,10 @@
     border-style: none;
     flex-wrap: nowrap;
     display: flex;
+    padding:5px;
 }
 
-.icons button {
-    border-style: none;
-    background-color: transparent;
-    margin:0px 6px;
+.icons:hover {
+    background-color: rgba(0,0,0, 0.1);
+    border-radius: 50%;
 }

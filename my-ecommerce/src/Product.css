@@ -62,3 +62,35 @@
     min-width: 90px;
     height: 40px;
 }
+
+.shopping-cart-list {
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    right: 0;
+    height: 80%;
+    width: fit-content;
+    display: flex;
+    padding:20px;
+}
+
+.product-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:5px 0px;
+}
+
+.product-list p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.cart-price{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding:10px;
+}
