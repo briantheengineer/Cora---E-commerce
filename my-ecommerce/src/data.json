@@ -1,90 +1,116 @@
 [
- {
+  {
     "id": 1,
     "name": "Yellow Hoodie",
     "imgUrl": "/product-images/item1.png",
     "price": 150,
-    "category":"Hoodie",
-    "link":"https://www.google.com/"
- },
- {
-   "id":2,
-   "name":"Dark Blue Jacket",
-   "imgUrl": "/product-images/item2.png",
-   "price": 145,
-   "link": "https://www.google.com/"
- },
- { 
-  "id": 3,
-  "name": "White Nike Shoes",
-  "imgUrl": "/product-images/item3.png",
-  "price": 100
- },
- { 
-  "id": 4,
-  "name": "Green Stamped Dress",
-  "imgUrl": "/product-images/item4.png",
-  "price": 50
- },
- { 
-  "id": 5,
-  "name": "Blue Sweater",
-  "imgUrl": "/product-images/item5.png",
-  "price":100
- },
- { 
-  "id": 6,
-  "name": "Sunglasses",
-  "imgUrl": "/product-images/item6.png",
-  "price": 70
- },
- { 
-  "id": 7,
-  "name": "Pink Backpack",
-  "imgUrl": "/product-images/item7.png",
-  "price": 90
- },
- { 
-  "id": 8,
-  "name": "Leather Jacket",
-  "imgUrl": "/product-images/item8.png",
-  "price": 150
- },
- { 
-  "id": 9,
-  "name": "Sunset Dress",
-  "imgUrl": "/product-images/item9.png",
-  "price": 90
- },
- { 
-  "id": 10,
-  "name": "Swaroski Watch",
-  "imgUrl": "/product-images/item10.png",
-  "price":500
- },
- { 
-  "id": 11,
-  "name": "Leather Purse",
-  "imgUrl": "/product-images/item11.png",
-  "price":500
-  
- },
- { 
-  "id": 12,
-  "name": "Striped Skirt",
-  "imgUrl": "/product-images/item12.png",
-  "price": 50
- },
- { 
-  "id": 13,
-  "name": "Watch",
-  "imgUrl": "/product-images/item13.png",
-  "price": 200
- },
- { 
-  "id": 14,
-  "name": "Pink Jeans",
-  "imgUrl": "/product-images/item14.png",
-  "price": 70
- }
+    "category": "Hoodie",
+    "link": "https://www.google.com/",
+    "description": "Stay warm and stylish with this vibrant yellow hoodie. Made from high-quality materials, this hoodie is perfect for casual outings or lounging at home."
+  },
+  {
+    "id": 2,
+    "name": "Dark Blue Jacket",
+    "imgUrl": "/product-images/item2.png",
+    "price": 145,
+    "category": "Jacket",
+    "link": "https://www.google.com/",
+    "description": "Add a touch of sophistication to your wardrobe with this dark blue jacket. Its sleek design and comfortable fit make it suitable for both formal and casual occasions."
+  },
+  {
+    "id": 3,
+    "name": "White Nike Shoes",
+    "imgUrl": "/product-images/item3.png",
+    "price": 100,
+    "category": "Shoes",
+    "description": "Step up your sneaker game with these classic white Nike shoes. Featuring a timeless design and superior comfort, these shoes are perfect for everyday wear."
+  },
+  {
+    "id": 4,
+    "name": "Green Stamped Dress",
+    "imgUrl": "/product-images/item4.png",
+    "price": 50,
+    "category": "Dress",
+    "description": "Make a statement with this vibrant green stamped dress. Its eye-catching design and lightweight fabric make it a perfect choice for summer outings."
+  },
+  {
+    "id": 5,
+    "name": "Blue Sweater",
+    "imgUrl": "/product-images/item5.png",
+    "price": 100,
+    "category": "Sweater",
+    "description": "Stay cozy and chic with this stylish blue sweater. Whether you're running errands or meeting friends for coffee, this sweater will keep you warm and fashionable."
+  },
+  {
+    "id": 6,
+    "name": "Sunglasses",
+    "imgUrl": "/product-images/item6.png",
+    "price": 70,
+    "category": "Accessories",
+    "description": "Shield your eyes from the sun in style with these trendy sunglasses. Featuring a classic design and UV protection, these sunglasses are a must-have accessory."
+  },
+  {
+    "id": 7,
+    "name": "Pink Backpack",
+    "imgUrl": "/product-images/item7.png",
+    "price": 90,
+    "category": "Bag",
+    "description": "Add a pop of color to your ensemble with this adorable pink backpack. With multiple compartments and adjustable straps, it's both stylish and practical."
+  },
+  {
+    "id": 8,
+    "name": "Leather Jacket",
+    "imgUrl": "/product-images/item8.png",
+    "price": 150,
+    "category": "Jacket",
+    "description": "Elevate your outerwear collection with this timeless leather jacket. Crafted from premium leather, this jacket exudes sophistication and style."
+  },
+  {
+    "id": 9,
+    "name": "Sunset Dress",
+    "imgUrl": "/product-images/item9.png",
+    "price": 90,
+    "category": "Dress",
+    "description": "Capture the beauty of a sunset with this stunning dress. Featuring a flowing silhouette and vibrant colors, it's perfect for special occasions or a night out."
+  },
+  {
+    "id": 10,
+    "name": "Swaroski Watch",
+    "imgUrl": "/product-images/item10.png",
+    "price": 500,
+    "category": "Watch",
+    "description": "Make a statement with this luxurious Swaroski watch. With its sparkling crystal accents and elegant design, it's sure to turn heads wherever you go."
+  },
+  {
+    "id": 11,
+    "name": "Leather Purse",
+    "imgUrl": "/product-images/item11.png",
+    "price": 500,
+    "category": "Bag",
+    "description": "Add a touch of luxury to your accessories collection with this chic leather purse. With its spacious interior and timeless design, it's perfect for everyday use or special occasions."
+  },
+  {
+    "id": 12,
+    "name": "Striped Skirt",
+    "imgUrl": "/product-images/item12.png",
+    "price": 50,
+    "category": "Skirt",
+    "description": "Embrace your feminine side with this charming striped skirt. Featuring a flattering fit and playful stripes, it's a versatile addition to any wardrobe."
+  },
+  {
+    "id": 13,
+    "name": "Migliano Watch",
+    "imgUrl": "/product-images/item13.png",
+    "price": 200,
+    "category": "Watch",
+    "description": "Keep track of time in style with this elegant watch. Featuring a sleek design and reliable movement, it's a timeless accessory for any occasion."
+  },
+  {
+    "id": 14,
+    "name": "Pink Jeans",
+    "imgUrl": "/product-images/item14.png",
+    "price": 70,
+    "category": "Jeans",
+    "description": "Add a pop of color to your denim collection with these stylish pink jeans. With their comfortable fit and trendy design, they're perfect for casual outings with friends."
+  }
 ]
