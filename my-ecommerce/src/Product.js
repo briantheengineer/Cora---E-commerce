@@ -54,7 +54,7 @@ export default function Product() {
             {cart.map((item) => (
               <div className='product-list' key={item.id}>
                 <p>{item.name}</p> <br/>
-                <p>${item.price}</p>
+                <p>${item.price} </p>
                 <button onClick={() => removeFromCart(item.id)}>Remove</button>
               </div>
             ))}
