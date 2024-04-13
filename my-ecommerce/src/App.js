@@ -8,24 +8,23 @@ import Product from './Product.js';
 import Finish from "./Finish.js";
 import Contact from './Contact.js';
 
-
 function App() {
   return (
+    <Router> 
       <div className="App">
         <div>
           <Header />
           <HeaderSection />
-          <Router>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/products" element={<ProductsPage />} />
-              <Route path="/products/:id" element={<Product />} />
-              <Route path="/finish" element={<Finish />} />
-            </Routes>
-          </Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/products" element={<ProductsPage />} />
+            <Route path="/products/:id" element={<Product />} />
+            <Route path="/finish" element={<Finish />} />
+          </Routes>
           <Contact />
         </div>
       </div>
+    </Router>
   );
 }
 

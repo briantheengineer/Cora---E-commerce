@@ -8,7 +8,7 @@ function Finish() {
   const location = useLocation();
   const cart = location.state && location.state.cart;
 
-  const totalPrice = cart.reduce((total, item) => total + item.price, 0);
+  const totalPrice = cart ? cart.reduce((total, item) => total + item.price, 0) : 0;
 
   const handleSubmit = (event) => {
     event.preventDefault();
